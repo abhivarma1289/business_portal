@@ -1,11 +1,9 @@
-import React from 'react'
-// import { Header } from '../Header/header'
-
+import { SubHeader } from "../SubHeader/subheader"
+import './home.scss';
 export const Home = () => {
   return (
-    <div>
-        {/* <Header/> */}
-        <h1>home</h1>
+    <div className="bg">
+      <SubHeader/>
     </div>
   )
 }

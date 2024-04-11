@@ -3,8 +3,9 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import Login from '../components/LoginPage/login';
 import Signup from '../components/SignupPage/signup';
 import { Home } from '../components/HomePage/home';
-import { Footer } from '../components/Footer/footer';
 import { Header } from '../components/Header/header';
+import Footer from '../components/Footer/footer';
+import { Form } from '../components/Form/form';
 
 const AppRoutes = () => {
     const location = useLocation();
@@ -19,6 +20,7 @@ const AppRoutes = () => {
                 <Route path="/" element={<Login/>} />
                 <Route path="/signup" element={<Signup/>} />
                 <Route path='/home' element={<Home/>}></Route>
+                <Route path='/form' element={<Form/>}></Route>
             </Routes>
             {showFooter && <Footer/>}
         </>

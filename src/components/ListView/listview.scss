@@ -1,0 +1,23 @@
+.list_container {
+    background-color: white;
+    // margin: 10px 10px 10px 10px;
+
+    margin: 30px 45px;
+   
+    &-card-head {
+      border-bottom: 2px solid #217bc0;
+    }
+  }
+  
+  .list_container-loader{
+    text-align: center;
+  }
+ .list_container-card-body-row {
+    cursor: pointer;
+  }
+
+  @media screen and (max-width:1023px){
+    .list_container{
+        margin: 30px 23px;
+    }
+  }

@@ -1,4 +1,5 @@
 .header{
+    background-color:white;
     display: flex;
     margin-top: 18px;
     margin-left: 20px;
@@ -8,6 +9,7 @@
     padding-bottom: 10px;
     &_leftsection{
         display: flex;
+        margin-left: 10px;
         justify-content: space-between;
         align-items: center;
         &-menuicon{
@@ -121,11 +123,12 @@
         margin-right: 10px;
     }
     .header_rightsection-searchbar {
-        width: 90px;
+        // width: 90px;
+        display: none;
     }
-    .header_rightsection-searchbar-input {
-        width: 45px;
-    }
+    // .header_rightsection-searchbar-input {
+    //     width: 45px;
+    // }
     
     .header_rightsection-squarefour{
         display: none;
@@ -137,6 +140,6 @@
         margin-right: 20px;
     }
     .header_rightsection-profile{
-        display: none;
+        // display: none;
     }
   }
